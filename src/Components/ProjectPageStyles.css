@@ -47,7 +47,7 @@
     grid-column: 1/3;
     grid-row: 1/7;
     border-top-left-radius: 7px;
-    background-image: url(src/assets/GamePage.png);
+    background-image: url('../assets/GamePage.png');
 }
 .tint-1{
     border-top-left-radius: 7px;
@@ -56,7 +56,7 @@
     grid-column: 1;
     grid-row: 7/13;
     border-bottom-left-radius: 7px ;
-    background-image: url(shot1.jpg);
+    background-image: url('/public/shot1.jpg');
 }
 .tint-2{
     border-bottom-left-radius: 7px ;
@@ -65,7 +65,7 @@
     
     grid-column: 2/3;
     grid-row: 7/13;
-    background-image: url(src/assets/render3.jpg);
+    background-image: url('../assets/render3.jpg');
 }
 .tint-4{
     border-top-right-radius: 7px;
@@ -74,12 +74,12 @@
     grid-column: 3/5;
     grid-row: 1/4;
     border-top-right-radius: 7px;
-    background-image: url(src/assets/slaveSS4.png);
+    background-image: url('../assets/slaveSS4.png');
 }
 .project-container-5{
     grid-column: 3/4;
     grid-row: 4/10;
-    background-image: url(src/assets/water.jpg);
+    background-image: url('../assets/water.jpg');
 }
 .project-container-6{
     background: linear-gradient(101deg, rgba(255,0,131,1) 0%, rgba(139,5,176,1) 11%, rgba(69,8,204,1) 28%, rgba(42,88,224,1) 44%, rgba(41,91,225,1) 55%, rgba(35,110,230,1) 64%, rgba(24,141,238,1) 75%, rgba(17,163,243,1) 82%, rgba(10,184,248,1) 86%, rgba(0,212,255,1) 97%);    grid-column: 4/5;
