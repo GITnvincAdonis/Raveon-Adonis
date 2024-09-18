@@ -1,0 +1,189 @@
+
+
+
+/**
+* @license
+*
+* Font Family: Satoshi
+* Designed by: Deni Anggara
+* URL: https://www.publichare.com/public/satoshi
+* © 2024 Indian Type Foundry
+*
+* Satoshi Light 
+* Satoshi LightItalic 
+* Satoshi Regular 
+* Satoshi Italic 
+* Satoshi Medium 
+* Satoshi MediumItalic 
+* Satoshi Bold 
+* Satoshi BoldItalic 
+* Satoshi Black 
+* Satoshi BlackItalic 
+* Satoshi Variable (Variable font)
+* Satoshi VariableItalic (Variable font)
+
+*
+*/
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../public/Satoshi-Light.woff2') format('woff2'),
+         url('../public/Satoshi-Light.woff') format('woff'),
+         url('../public/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-LightItalic';
+    src: url('../public/Satoshi-LightItalic.woff2') format('woff2'),
+         url('../public/Satoshi-LightItalic.woff') format('woff'),
+         url('../public/Satoshi-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../public/Satoshi-Regular.woff2') format('woff2'),
+         url('../public/Satoshi-Regular.woff') format('woff'),
+         url('../public/Satoshi-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-Italic';
+    src: url('../public/Satoshi-Italic.woff2') format('woff2'),
+         url('../public/Satoshi-Italic.woff') format('woff'),
+         url('../public/Satoshi-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../public/Satoshi-Medium.woff2') format('woff2'),
+         url('../public/Satoshi-Medium.woff') format('woff'),
+         url('../public/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-MediumItalic';
+    src: url('../public/Satoshi-MediumItalic.woff2') format('woff2'),
+         url('../public/Satoshi-MediumItalic.woff') format('woff'),
+         url('../public/Satoshi-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../public/Satoshi-Bold.woff2') format('woff2'),
+         url('../public/Satoshi-Bold.woff') format('woff'),
+         url('../public/Satoshi-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-BoldItalic';
+    src: url('../public/Satoshi-BoldItalic.woff2') format('woff2'),
+         url('../public/Satoshi-BoldItalic.woff') format('woff'),
+         url('../public/Satoshi-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Satoshi-Black';
+    src: url('../public/Satoshi-Black.woff2') format('woff2'),
+         url('../public/Satoshi-Black.woff') format('woff'),
+         url('../public/Satoshi-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi-BlackItalic';
+    src: url('../public/Satoshi-BlackItalic.woff2') format('woff2'),
+         url('../public/Satoshi-BlackItalic.woff') format('woff'),
+         url('../public/Satoshi-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
+  }
+  /**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: wght 900.0;
+  *
+  * available axes:
+  'wght' (range from 300.0 to 900.0
+  */
+  @font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../public/Satoshi-Variable.woff2') format('woff2'),
+         url('../public/Satoshi-Variable.woff') format('woff'),
+         url('../public/Satoshi-Variable.ttf') format('truetype');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+  }
+  /**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: wght 900.0;
+  *
+  * available axes:
+  'wght' (range from 300.0 to 900.0
+  */
+  @font-face {
+    font-family: 'Satoshi-VariableItalic';
+    src: url('../public/Satoshi-VariableItalic.woff2') format('woff2'),
+         url('../public/Satoshi-VariableItalic.woff') format('woff'),
+         url('../public/Satoshi-VariableItalic.ttf') format('truetype');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: italic;
+  }
+  
+.intro-container{
+  background: radial-gradient(circle, rgba(97,52,52,1) 0%, rgba(52,35,85,1) 63%, rgba(4,11,52,1) 99%);
+}
+.introduction-text{
+  text-align: center;
+    font-size: 4rem;
+    font-family: Satoshi-Variable;
+    font-weight: 600;
+    color: white;
+}
+.project-button{
+    font-family: Satoshi-Variable;
+    font-weight: 400;
+    padding: .51rem 2rem;
+    border: none;
+    background-color: rgba(179, 112, 74, 0.478);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.355);
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition-duration: 100ms;
+
+}
+.project-button:hover{
+  scale: 1.1;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+@media screen and (max-width: 800px) {
+  .introduction-text{
+    text-align: center;
+      font-size: 2rem;
+      font-family: Satoshi-Variable;
+      font-weight: 600;
+      color: white;
+  }
+}

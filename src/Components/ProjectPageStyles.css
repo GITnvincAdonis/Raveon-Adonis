@@ -1,0 +1,317 @@
+
+.project-container{
+   background-position: center;
+   background-size: cover;
+  
+    background-color: rgb(79, 78, 78);
+
+    transition-duration: 200ms;
+    width: 100%;
+    height: 100%;
+}
+.tints{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.488);
+    transition-duration: 200ms;
+}
+.project-container:hover{
+    filter: blur(2px);
+    animation: hover-anim 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;    
+}
+.project-container-2:hover,.project-container-5:hover{
+    animation: hover-anim2 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;   
+    
+}
+.project-container-3:hover{
+    animation: hover-anim3 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards; 
+}
+@keyframes hover-anim {
+    50%{opacity: 1;scale: 1.01;background-size: 130%}
+    100%{opacity: 1;scale: 1.01;background-size: 160%;}
+}
+@keyframes hover-anim2 {
+    50%{opacity: 1;scale: 1.01;background-size: 180%;}
+    100%{scale: 1.01;opacity: 1;background-size: 260%;}
+}
+@keyframes hover-anim3 {
+    50%{opacity: 1;scale: 1.01;background-size: 380%;}
+    100%{scale: 1.01;opacity: 1;background-size: 500%;}
+}
+
+.project-container div:hover{
+    background-size: 300%;    
+}
+.project-container-1{
+    grid-column: 1/3;
+    grid-row: 1/7;
+    border-top-left-radius: 7px;
+    background-image: url(src/assets/GamePage.png);
+}
+.tint-1{
+    border-top-left-radius: 7px;
+}
+.project-container-2{
+    grid-column: 1;
+    grid-row: 7/13;
+    border-bottom-left-radius: 7px ;
+    background-image: url(shot1.jpg);
+}
+.tint-2{
+    border-bottom-left-radius: 7px ;
+}
+.project-container-3{
+    
+    grid-column: 2/3;
+    grid-row: 7/13;
+    background-image: url(src/assets/render3.jpg);
+}
+.tint-4{
+    border-top-right-radius: 7px;
+}
+.project-container-4{
+    grid-column: 3/5;
+    grid-row: 1/4;
+    border-top-right-radius: 7px;
+    background-image: url(src/assets/slaveSS4.png);
+}
+.project-container-5{
+    grid-column: 3/4;
+    grid-row: 4/10;
+    background-image: url(src/assets/water.jpg);
+}
+.project-container-6{
+    background: linear-gradient(101deg, rgba(255,0,131,1) 0%, rgba(139,5,176,1) 11%, rgba(69,8,204,1) 28%, rgba(42,88,224,1) 44%, rgba(41,91,225,1) 55%, rgba(35,110,230,1) 64%, rgba(24,141,238,1) 75%, rgba(17,163,243,1) 82%, rgba(10,184,248,1) 86%, rgba(0,212,255,1) 97%);    grid-column: 4/5;
+    padding: .3rem;
+    grid-row: 4/10;
+}
+.innr-border{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.project-container-7{
+    padding: 1rem;
+
+    grid-column: 3/5;
+    grid-row: 10/13;
+ 
+}
+
+.tint-7, .tint-6{
+    background-color: white;
+    border-bottom-right-radius: 7px;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.project-label{
+    display: flex;
+    place-items: center;
+    place-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+
+    
+    text-transform: capitalize;
+}
+
+.project-label h3{
+    text-align: center;
+    font-size: 1rem;
+    max-width: 18ch;
+    font-weight: 100;
+}
+
+.grid-container{
+    width: 70vw;
+    height: 45rem;
+    display: grid;
+    gap: .81rem;
+   
+    
+    grid-template-columns: 3fr 1.4fr 3fr 1.3fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+}
+
+.github-icon{
+    transform-origin: center;
+    scale: 1.2;
+    width: 15%;
+    transition-duration: 600ms;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.2, 1);
+}
+.github-icon:hover{
+    scale: 1.3;
+}
+.github-icon:nth-child(3):hover .number-field{
+    opacity: 1;
+}
+.number-field{
+    transition-duration: 200ms;
+    opacity: 0;
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    color: white;
+    bottom: 0;
+    white-space: nowrap;
+    padding: 10px 15px;
+
+    
+}
+.number-field::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -40%;
+    transform: translateX(-50%);
+    border: 10px solid;
+    border-color:  #0000 #0000 #000 #0000 ;
+    
+    z-index: 100;
+    
+}
+@media screen and (max-width:1320px)and (min-width:700px){
+    
+    .project-container{
+        background-position: center;
+        background-size: cover;
+    
+        background-color: rgb(79, 78, 78);
+    
+        transition-duration: 200ms;
+        width: 100%;
+        height: 100%;
+    }
+    .project-container:hover{
+        filter: blur(2px);
+        animation: hover-anim 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;    
+    }
+    .project-container-2:hover{
+        animation: hover-anim2 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;   
+        
+    }
+    .project-container-3:hover,.project-container-5:hover{
+        animation: hover-anim3 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards; 
+    }
+    @keyframes hover-anim {
+        50%{opacity: 1;scale: 1.01;background-size: 330%}
+        100%{opacity: 1;scale: 1.01;background-size: 390%;}
+    }
+    @keyframes hover-anim2 {
+        50%{opacity: 1;scale: 1.01;background-size: 230%;}
+        100%{scale: 1.01;opacity: 1;background-size: 300%;}
+    }
+    @keyframes hover-anim3 {
+        50%{opacity: 1;scale: 1.01;background-size: 380%;}
+        100%{scale: 1.01;opacity: 1;background-size: 500%;}
+    }
+}
+    
+
+@media screen and (max-width: 700px){
+    .grid-container{
+        width: 70vw;
+        height: 45rem;
+        display: flex;
+        flex-direction: column;
+        gap: .81rem;
+       
+        
+     
+        
+    }
+    .project-container{
+        background-position: center;
+        background-size: cover;
+       
+         background-color: rgb(79, 78, 78);
+     
+         transition-duration: 200ms;
+         width: 100%;
+         height: 100%;
+         border-radius: 0%;
+         border-radius: 4px;
+     }
+    .tints{
+        border-radius: 0%;
+        border-radius: 4px;
+    }
+    .project-container-1{
+        grid-column: 1/3;
+        grid-row: 1/7;
+        
+        background-image: url(src/assets/GamePage.png);
+    }
+   
+    .project-container-2{
+        grid-column: 1;
+        grid-row: 7/13;
+        
+        background-image: url(shot1.jpg);
+    }
+   
+    .project-container-3{
+        
+        grid-column: 2/3;
+        grid-row: 7/13;
+        background-image: url(src/assets/render3.jpg);
+    }
+   
+    .project-container-4{
+        grid-column: 3/5;
+        grid-row: 1/4;
+        
+        background-image: url(src/assets/slaveSS4.png);
+    }
+    .project-container-5{
+        grid-column: 3/4;
+        grid-row: 4/8;
+        background-image: url(src/assets/water.jpg);
+    }
+    .project-container-6{
+        grid-column: 4/5;
+        grid-row: 4/8;
+    }
+    .project-container-7{
+        grid-column: 3/5;
+        grid-row: 8/13;
+        border-radius: 2px
+       
+    }
+    .github-icon{
+        scale: 1.2;
+        width: 15%;
+    }
+    .number-field{
+        color: white;
+        scale: .5;
+        background-color: black;
+        position: absolute;
+        border-radius: 10px;
+        transform: translateX(-50%);
+        bottom: -100%;
+        white-space: nowrap;
+        padding: 10px 15px;
+    
+        
+    }
+    .number-field::before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: -40%;
+        transform: translateX(-50%);
+        border: 10px solid;
+        border-color:  #0000 #0000 #000 #0000 ;
+        
+        z-index: 100;
+        
+    }
+   
+};
+    

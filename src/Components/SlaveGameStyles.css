@@ -1,0 +1,39 @@
+.slave-game-images{
+  
+    object-fit: cover;
+    scale: 1;
+   height: 40rem;
+
+    
+}
+
+.slave-game-text h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.slave-game-text li{
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.slave-game-text h4{
+    padding-left: 3rem;
+    font-size: 1.3rem;
+    font-weight: 400
+    ;
+}
+
+@media screen and (max-width:800px) {
+    .slave-game-text li{
+        padding-top: 0rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .slave-game-text h4{
+        padding-left: 2rem;
+        font-size: 1rem;
+        font-weight: 400
+        ;
+    }
+}
