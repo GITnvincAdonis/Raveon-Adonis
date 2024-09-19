@@ -23,7 +23,6 @@ function SliderContainer(props: { children: any }) {
   );
 }
 export default function UnityGameProject() {
-
   return (
     <div className="page-window">
       <MainPageButton></MainPageButton>
@@ -142,28 +141,40 @@ export default function UnityGameProject() {
         <SliderContainer>
           <h1 className="top-header">UNITY GAME OVERVIEW</h1>
           <h3>
-            This project served as a way of learning how to code and apply it in
-            an engaing medium. It serves as the culmination of a year of
-            experimenting and learning the UNITT development tool. "Roboto"
-            itself took 3 months of development time, proceeding a "failed"
-            construction of a prior prototype. This was an overhaul of a
-            previous concept in development.
+            This project served to help me code using{" "}
+            <span className="highlighted">system architecture</span>, applying
+            it in an engaging medium. It is the culmination of a year of
+            experimenting and learning the{" "}
+            <span className="highlighted">UNITY development tool</span>.
+            "Roboto" itself took 3 months of development time, proceeding a
+            "failed" construction of a prior prototype.
           </h3>
         </SliderContainer>
 
         <SliderContainer>
           <div className="repository-link">Repository</div>
-          <Link to={"https://github.com/GITnvincAdonis/Non-Urp-Platform"}>
+          <Link
+            className="hyper-link"
+            to={"https://github.com/GITnvincAdonis/Non-Urp-Platform"}
+          >
             Non-Urp-Platform
           </Link>
         </SliderContainer>
         <SliderContainer>
           <div className="Itch-link">Published Game</div>
-          <Link to={"https://nvincadonis.itch.io/roboto"}>ROBOTO-GAME</Link>
+          <Link
+            className="hyper-link"
+            to={"https://nvincadonis.itch.io/roboto"}
+          >
+            ROBOTO-GAME
+          </Link>
         </SliderContainer>
         <SliderContainer>
           <div className="devlog-link">Devlog</div>
-          <Link to={"https://www.youtube.com/watch?v=pBj-lgULtWc"}>
+          <Link
+            className="hyper-link"
+            to={"https://www.youtube.com/watch?v=pBj-lgULtWc"}
+          >
             Devlog-video
           </Link>
         </SliderContainer>

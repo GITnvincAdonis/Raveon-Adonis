@@ -29,13 +29,14 @@
     overflow: hidden;
     scale: 1.5;
     width: 100vw;
-    border: 2px solid black;
+   
 }
 .snapshot-1{
     overflow: hidden;
     scale: .6;
     width: 100vw;
-    border: 2px solid black;
+    border: solid rgb(0, 0, 0);
+   
 }
 .text-container h1{
     font-weight: 700;
@@ -47,12 +48,17 @@
     font-size: 4rem;
 }
 .text-container h3{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.2rem;
     max-width: 60ch;
     min-width: 30ch;
 }
-
+.highlighted{
+    background: linear-gradient(141deg, rgba(215,133,133,1) 0%, rgba(93,27,223,1) 84%, rgba(23,57,255,1) 99%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
 .text-container{
     transform: translateY(-4rem);
     padding: 0 10rem;
@@ -76,8 +82,21 @@
     font-size: 2.5rem;
     font-weight: 700;
     padding-top: 1rem;
+    
 
     
+}
+.hyper-link{
+    background: linear-gradient(141deg, rgb(255, 0, 0) 0%, rgb(85, 0, 255) 84%, rgb(0, 38, 252) 99%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 1.2rem;
+transition-duration: 200ms;
+
+    
+}
+.hyper-link:hover{
+    font-size: 1.4rem;
 }
 .main-image{
     scale: 1.2;

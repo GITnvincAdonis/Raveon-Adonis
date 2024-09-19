@@ -18,12 +18,18 @@
     font-weight: 500;
 }
 .slave-game-text h4{
+    background: linear-gradient(141deg, rgb(255, 0, 0) 0%, rgb(85, 0, 255) 84%, rgb(0, 38, 252) 99%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding-left: 3rem;
     font-size: 1.3rem;
     font-weight: 400
     ;
+    transition-duration: 200ms;
 }
-
+.slave-game-text h4:hover{
+    font-size: 1.5rem;
+}
 @media screen and (max-width:800px) {
     .slave-game-text li{
         padding-top: 0rem;
@@ -31,6 +37,9 @@
         font-weight: 500;
     }
     .slave-game-text h4{
+        background: linear-gradient(141deg, rgb(255, 0, 0) 0%, rgb(85, 0, 255) 84%, rgb(0, 38, 252) 99%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
         padding-left: 2rem;
         font-size: 1rem;
         font-weight: 400
