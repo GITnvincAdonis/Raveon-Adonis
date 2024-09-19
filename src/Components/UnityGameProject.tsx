@@ -146,7 +146,7 @@ export default function UnityGameProject() {
             it in an engaging medium. It is the culmination of a year of
             experimenting and learning the{" "}
             <span className="highlighted">UNITY development tool</span>.
-            "Roboto" itself took 3 months of development time, proceeding a
+            "Roboto" itself took 3 months of development time, following a
             "failed" construction of a prior prototype.
           </h3>
         </SliderContainer>
