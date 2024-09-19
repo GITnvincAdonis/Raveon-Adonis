@@ -3,13 +3,10 @@ import "./HeadphoneRenderStyles.css";
 import video from "../assets/render.mp4";
 
 import MainPageButton from "./MainPageButton";
-import { useLayoutEffect } from "react";
 
 export default function HeadphoneRender() {
   const listItems = ["./shot3.jpg", "./shot2.png", "./shot1.jpg"];
-  useLayoutEffect(() => {
-    document.body.classList.add("headphone-body-styles");
-  });
+
   return (
     <>
       <MainPageButton></MainPageButton>
