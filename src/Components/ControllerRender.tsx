@@ -31,7 +31,7 @@ export default function ControllerRender() {
           //cldVid={cld.video("assets/controllerRender").quality("auto")}
           src={Video}
           controls
-          autoPlay
+          
         ></video>
         {imBoxes.map((item, index) => {
           const [isVisible, updateVisibility] = useState(false);
