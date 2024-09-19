@@ -33,7 +33,7 @@ export default function HomePage() {
         initial="initial"
         animate="active"
         exit="exit"
-        className="border vh-100 vw-100 d-flex flex-column justify-content-center intro-container position-fixed"
+        className="vh-100 vw-100 d-flex flex-column justify-content-center intro-container position-fixed"
       >
         {isVisibleOnDOM && (
           <>
@@ -43,7 +43,7 @@ export default function HomePage() {
               animate="active"
               className="align-self-center introduction-text"
             >
-              Hi, Im Raveon Adonis
+              Hi, I'm Raveon Adonis
             </motion.div>
             <Link to="/content" className="align-self-center">
               <motion.button

@@ -41,3 +41,10 @@
 .repo-button:hover, .documentation:hover{
     scale: 1.04;
 }
+.suspense-text{
+    text-align: center;
+    text-justify: center;
+    background-color: black;
+    color: white;
+    font-size: 10vw;
+}

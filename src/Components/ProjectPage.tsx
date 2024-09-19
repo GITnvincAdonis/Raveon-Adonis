@@ -60,7 +60,7 @@ export default function ProjectPage() {
         animate="visible"
         exit="exit"
         transition={{ type: "spring", delay: 0.1 }}
-        className="vh-100 vw-100 border d-flex flex-column justify-content-center align-items-center"
+        className="vh-100 vw-100 d-flex flex-column justify-content-center align-items-center"
       >
         <motion.div className="grid-container">
           {animationParameters.map((item, index) => {
@@ -134,7 +134,7 @@ export default function ProjectPage() {
                   transition={{
                     type: "spring",
                     duration: 0.61,
-                    delay: (1 + index * 0.1) * delayMult,
+                    delay: (0.31 + index * 0.1) * delayMult,
                   }}
                   className={"tints tint-" + (index + 1)}
                 >

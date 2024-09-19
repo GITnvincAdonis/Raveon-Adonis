@@ -3,10 +3,13 @@ import "./HeadphoneRenderStyles.css";
 import video from "../assets/render.mp4";
 
 import MainPageButton from "./MainPageButton";
+import { useLayoutEffect } from "react";
 
 export default function HeadphoneRender() {
   const listItems = ["./shot3.jpg", "./shot2.png", "./shot1.jpg"];
-
+  useLayoutEffect(() => {
+    document.body.classList.add("headphone-body-styles");
+  });
   return (
     <>
       <MainPageButton></MainPageButton>
@@ -14,9 +17,9 @@ export default function HeadphoneRender() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="vw-100 border d-flex justify-content-center align-items-center main-head-container"
+        className="vw-100 d-flex justify-content-center align-items-center main-head-container"
       >
-        <div className="border headphone-image-containers">
+        <div className=" headphone-image-containers">
           <div className="headphone-image-container headphone-image-container-1">
             <video className="headphone-vid" src={video} autoPlay loop></video>
           </div>

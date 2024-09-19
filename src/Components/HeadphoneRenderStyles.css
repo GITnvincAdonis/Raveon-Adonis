@@ -10,8 +10,8 @@
     transition-duration: 150ms;
     background-color: black;
 }
-.main-head-container{
-    background-color: yellow;
+.headphone-body-styles{
+    background-color: black;
 }
 .headphone-image-container{
     border: 1px solid black;

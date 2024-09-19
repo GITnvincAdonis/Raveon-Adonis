@@ -8,8 +8,10 @@ import HeadphoneRender from "./Components/HeadphoneRender";
 import ControllerRender from "./Components/ControllerRender";
 import Slavegame from "./Components/SlaveGame";
 import WaterProject from "./Components/WaterProject";
+
 function App() {
   const location = useLocation();
+
   return (
     <>
       <AnimatePresence mode="wait">
