@@ -45,10 +45,10 @@ export default function WaterProject() {
                 disableRemotePlayback
               />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Fractional-brownian-motion simulation technique</h5>
+                <h5>Fractional-Brownian-Motion Simulation Technique</h5>
                 <p>
-                  An imporvement to the simple sum of signs technique,
-                  implementing more randomzation into the shader algorthym
+                  An improvement to the simple sum-of-sines technique,
+                  implementing more randomzation into the shader algorithm
                 </p>
               </div>
             </div>
@@ -62,8 +62,8 @@ export default function WaterProject() {
               <div className="carousel-caption d-none d-md-block">
                 <h5>SUM-OF-SINES Water Surface Approximation</h5>
                 <p>
-                  the application of simple trigonometry and calculus to produce
-                  a GPU-powered simulation
+                  The application of simple trigonometry and calculus to produce
+                  a GPU-enabled simulation
                 </p>
               </div>
             </div>
