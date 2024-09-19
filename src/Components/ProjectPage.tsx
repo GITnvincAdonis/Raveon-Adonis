@@ -213,7 +213,7 @@ export default function ProjectPage() {
                 />
               </svg>
             </Link>
-            <Link to={""} className="github-icon">
+            <div className="github-icon">
               <div className="number-field">592-649-2218</div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -230,7 +230,7 @@ export default function ProjectPage() {
                   fill="#1C274C"
                 />
               </svg>
-            </Link>
+            </div>
           </motion.div>
         </motion.div>
       </motion.div>

@@ -15,7 +15,7 @@ export default function WaterProject() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="border vw-100 position-fixed bg-black"
+        className="border vw-100 position-fixed bg-black mega-water-container"
       >
         <MainPageButton></MainPageButton>
         <Suspense
@@ -45,13 +45,7 @@ export default function WaterProject() {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <video
-                  src={fbm}
-                  className="water-vid water-vid-1"
-                  autoPlay
-                  loop
-                  disableRemotePlayback
-                />
+                <video src={fbm} className="water-vid water-vid-1" controls />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Fractional-Brownian-Motion Simulation Technique</h5>
                   <p>
@@ -61,12 +55,7 @@ export default function WaterProject() {
                 </div>
               </div>
               <div className="carousel-item">
-                <video
-                  src={SOS}
-                  className="water-vid water-vid-2"
-                  autoPlay
-                  loop
-                />
+                <video src={SOS} className="water-vid water-vid-2" controls />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>SUM-OF-SINES Water Surface Approximation</h5>
                   <p>
