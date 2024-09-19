@@ -3,6 +3,12 @@ import "./ProjectPageStyles.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
+import GamePage from "../assets/GamePage.png";
+import Render1 from "/shot1.jpg";
+import Render2 from "../assets/render3.jpg";
+import IA from "../assets/slaveSS4.png";
+import water from "../assets/water.jpg";
+
 const animationState = {
   hidden: {
     opacity: 0,
@@ -37,6 +43,7 @@ function getWindowDimensions() {
   };
 }
 export default function ProjectPage() {
+  let images = [GamePage, Render1, Render2, IA, water];
   const animationParameters = [
     ["-80vw", "0vw", 2, 1, "Portfolio-Game"],
     ["0", "60vh", 1, 3, "render 1"],
@@ -113,28 +120,31 @@ export default function ProjectPage() {
                 }}
               >
                 <motion.div
-                  initial={{ opacity: 0.1, backgroundColor: "black" }}
+                  initial={{ opacity: 0 }}
                   animate={{
                     x: 0,
                     y: 0,
                     scaleX: 1,
                     scaleY: 1,
                     opacity: 0.8,
-                    backgroundColor: "black",
                   }}
                   whileHover={{
-                    opacity: 0.11,
+                    opacity: 1.11,
                   }}
                   transition={{
                     type: "spring",
                     duration: 0.61,
-                    delay: (3 + index * 0.1) * delayMult,
+                    delay: (1 + index * 0.1) * delayMult,
                   }}
                   className={"tints tint-" + (index + 1)}
                 >
-                  <div className="project-label">
+                  <div className={"project-label project-label-" + (index + 1)}>
                     <h3>{item[4]}</h3>
                   </div>
+                  <img
+                    className={"m-images m-images-" + (index + 1)}
+                    src={images[index]}
+                  ></img>
                 </motion.div>
               </motion.div>
             );

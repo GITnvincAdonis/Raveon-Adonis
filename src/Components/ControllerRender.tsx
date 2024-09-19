@@ -1,6 +1,6 @@
 import "./ControllerRenderStyles.css";
 
-import video from "../assets/controllerRender.mp4";
+import Video from "../assets/controllerRender.mp4";
 import im1 from "../assets/render 1.jpg";
 import im2 from "../assets/render 2.jpg";
 import im3 from "../assets/render3.jpg";
@@ -29,7 +29,7 @@ export default function ControllerRender() {
         <video
           className=" d-flex justify-content-center align-items-center h-max-content controller-vid border"
           //cldVid={cld.video("assets/controllerRender").quality("auto")}
-          src={video}
+          src={Video}
           controls
           autoPlay
         ></video>
